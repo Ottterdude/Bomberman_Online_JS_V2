@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  left: 50%;
+  margin-left: -544px;
+}
+body { 
+  background-color: #163E03;
+}
+
+#stage {
+  position: absolute;
+  z-index: -1;
+  margin-top: 64px;
+}
+
+#stage2 {
+  z-index: -2;
+  position: absolute;
+  margin-top: 64px;
+  image-rendering: pixelated;
+}
+
+#stage3 {
+  z-index: 1;
+  position: absolute;
+  margin-top: 64px;
+}
+canvas {
+  margin-left: -416px;
+}
+img {
+  position: absolute;
+  z-index: -3;
+  image-rendering: pixelated;
+}
